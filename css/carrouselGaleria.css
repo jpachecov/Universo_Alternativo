@@ -1,0 +1,18 @@
+.container { width:550px; height:400px; margin-left: 15px; }
+.container > img, .container > div { width:480px; height:360px; display:none; }
+
+#galeriaCarrousel .montePrev, #galeriaCarrousel .monteNext, #galeriaCarrousel .montePlay { 
+    display:block; 
+    background-image:url(buttons.png); 
+    background-repeat:none;
+    position:absolute;
+    text-indent:-9999px;
+}
+#galeriaCarrousel .montePrev { width:29px; height:28px; background-position:0 -46px; bottom:-14px; left:210px; padding-bottom: 20px; }
+#galeriaCarrousel .montePrev:hover { background-position:0 -6px; }
+#galeriaCarrousel .monteNext { width:29px; height:28px; background-position:-70px -46px; bottom:-14px; left:280px; padding-bottom: 20px;}
+#galeriaCarrousel .monteNext:hover { background-position:-70px -6px; }
+#galeriaCarrousel .montePlay { width:41px; height:40px; background-position:-29px -120px; bottom:-20px; left:239px;padding-bottom: 20px; }
+#galeriaCarrousel .montePlay:hover { background-position:-29px -80px; }
+#galeriaCarrousel .montePaused { background-position:-29px -40px; }
+#galeriaCarrousel .montePaused:hover { background-position:-29px 0px; }
